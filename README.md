@@ -32,8 +32,8 @@
 
 /pages
 - /ds_page
-    - --index.html
-    - --ds_index.css
+    - --index.html  # 修改页面展示和click link
+    - --ds_index.css  # 修改美化，图片等
     - --index.js
 - /game_page
     - --index.html
@@ -61,7 +61,7 @@
     在本地打开网页文件，根据文件中注释在指定位置自定义修改内容<br>
     同时可以在本地直接打开网页查看修改效果，方便调试
 5. 提交修改<br>
-    修改完成后，在一级路径下打开git bash,输入git add . <br>然后输入git commit -m "修改说明" <br>最后输入git push origin main提交修改
+    修改完成后，在一级路径下打开git bash,输入“git add .” <br>然后输入git commit -m "修改说明/注释" ；会输出修改的文件<br> git pull # 确认一下是否更新，输出“Already up to date”即ok <br> 最后输入git push （origin main—好像没有这个）提交修改
 6. 查看效果<br>
     等待几分钟后，可以再次点击链接，查看修改是否同步
 
